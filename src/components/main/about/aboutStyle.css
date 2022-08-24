@@ -1,0 +1,17 @@
+.about p {
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+
+
+@media(min-width:320px) {
+  .about p {
+    font-size: 20px;
+  }
+}
+@media(min-width:768px) {
+  .about p {
+    font-size: 30px;
+  }
+}
+

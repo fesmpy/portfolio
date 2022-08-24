@@ -1,0 +1,37 @@
+.skills .col-4 svg {
+  width: 4em;
+}
+
+.skills .col-4 .html {
+  fill: #ec6231;
+}
+
+.skills .col-4 .css {
+  fill:#66d7eb;
+}
+
+
+.skills .col-4 .javascript {
+  fill: #e5e916;
+}
+
+
+.skills .col-4 .react {
+  fill: #4094a3;
+}
+
+
+.skills .col-4 .bootstrap {
+  fill: #2b40b6;
+}
+
+
+.skills .col-4 .git {
+  fill: #c76d1a;
+}
+
+
+.skills .col-4 .sass {
+  fill: #ec1be2;
+}
+

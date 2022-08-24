@@ -1,0 +1,21 @@
+.header .banner {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header {
+  height: 20vh;
+}
+
+@media (min-width: 320px) { 
+  .header {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 768px) { 
+  .header {
+    height: 50vh;
+  }
+}

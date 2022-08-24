@@ -1,0 +1,35 @@
+.carousel-item img {
+  max-height: 50vh;
+  object-fit: contain;
+}
+
+.carousel-caption {
+  background-color: #000;
+  border-radius: 17px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.open {
+  width: 1em;
+}
+
+@media(min-width: 768px) {
+  .d-block {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-inner {
+    height: 60vh;
+    border: 1px dotted gray;
+  }
+}
