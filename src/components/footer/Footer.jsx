@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="footer container-fluid bg-dark">
       <div className="row">
-        <div className="col-6 col-md-4 footer-frontend d-flex justify-content-center align-items-center">
+        <div className="col-5 col-md-4 footer-frontend d-flex justify-content-center align-items-center">
           <img src={footerLogo} alt="footer logo" className='footerLogo' />
         </div>
         <div className="col-6 col-md-4">
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
-          <p>Todos los derechos reservados - {year} <br />Fabio Sosa 🇵🇾</p>
+          <p>All rights reserved - {year} <br />Fabio Sosa 🇵🇾</p>
         </div>
       </div>
     </footer>
