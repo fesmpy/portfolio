@@ -7,6 +7,8 @@ import Work from './components/main/work/Work';
 import Contact from './components/main/contact/Contact';
 import Footer from './components/footer/Footer';
 
+import './index.css';
+
 function App() {
   return (
     <Fragment>

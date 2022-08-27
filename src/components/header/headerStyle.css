@@ -6,11 +6,32 @@
 
 .header {
   height: 20vh;
+  position: relative;
 }
 
-@media (min-width: 320px) { 
+.header .myphoto {
+  position: absolute;
+  bottom: -50px;
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+@media (max-width: 767px) { 
   .header {
     height: 30vh;
+  }
+  .header .myphoto {
+    position: absolute;
+    bottom: -10%;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
   }
 }
 

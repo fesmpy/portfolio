@@ -1,5 +1,11 @@
+
 .about p {
   font-family: 'Sorts Mill Goudy', serif;
+}
+
+
+.about #about {
+  font-family: instagram, sans-serif;
 }
 
 
@@ -15,3 +21,5 @@
   }
 }
 
+
+/* Amsterdam-ZVGqm */
