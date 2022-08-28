@@ -5,5 +5,23 @@
 }
 .nav {
   background-color: #000;
-  height: auto;
+  height: 12vh;
+}
+
+@media(max-width:768px) {
+  .nav {
+    height: auto;
+  }  
+}
+
+@media(min-width: 769px) {
+  .nav {
+    height: auto;
+  }
+}
+
+@media(min-width: 1024px) {
+  .nav {
+    height: 12vh;
+  }
 }
