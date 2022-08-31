@@ -9,7 +9,7 @@ import Footer from './components/footer/Footer';
 
 import './index.css';
 
-function App() {
+function App() {  
   return (
     <Fragment>
       <Nav />
